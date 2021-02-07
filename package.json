@@ -5,8 +5,8 @@
   "main": "./dist/index.js",
   "scripts": {
     "dev": "nodemon --exec babel-node src/index.js",
-    "build": "babel src --out-dir dist",
-    "start": "node dist/index.js"
+    "build": "babel src --out-dir server",
+    "start": "node ./server/index.js"
   },
   "keywords": [
     "node.js",
