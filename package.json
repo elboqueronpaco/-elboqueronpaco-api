@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "nodemon --exec babel-node src/index.js",
     "build": "babel src --out-dir server",
-    "start": "node ./server/index.js"
+    "start": "node server/index.js"
   },
   "keywords": [
     "node.js",
